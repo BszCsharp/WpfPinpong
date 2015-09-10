@@ -1,0 +1,8 @@
+﻿<Application x:Class="SpringBall.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="Pingpong.xaml">
+    <Application.Resources>
+        <BitmapImage x:Key="myBackground" UriSource="screen.png"></BitmapImage>
+    </Application.Resources>
+</Application>

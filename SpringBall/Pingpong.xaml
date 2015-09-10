@@ -1,0 +1,13 @@
+﻿<Window x:Class="SpringBall.Pingpong"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ping-Pong" Height="420" Width="700" MouseMove="Window_MouseMove" Loaded="Window_Loaded">
+    <Window.Background>
+        <ImageBrush x:Name="MyImage"></ImageBrush>
+    </Window.Background>
+    <Canvas Name="myCanvas" >
+        <Ellipse Width="20" Height="20" Fill="Red" Name="ball" Canvas.Left="200" Canvas.Top="150" />
+        <Rectangle Width="10" Height="100" Fill="Aqua" Name="leftPaddle" Canvas.Left="0" Canvas.Top="30"/>
+        <Rectangle Width="10" Height="100" Fill="Aqua"  Name="rightPaddle" Canvas.Right="0" Canvas.Top="30"/>
+    </Canvas>
+</Window>
